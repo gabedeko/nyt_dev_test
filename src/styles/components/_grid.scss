@@ -1,0 +1,125 @@
+.grid {
+    max-width: 1340px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    color: $light;
+    a {
+        color: $light;
+    }
+}
+
+.grid-1-left {
+    grid-column: span 8;
+    background-image: url("../../assets/img/grid_0.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: calc(38vw);
+    max-height: 460px;
+    .grid-1-left-copy {
+        font-family: Mag_Sans_700;
+        font-size: 28px;
+    }
+}
+
+.grid-1-right {
+    padding: 4% 4% 0 4%;
+    grid-column: span 4;
+    background-color: #748CA8;
+    background-image: url("../../assets/img/grid_1.png");
+    background-repeat: no-repeat;
+    background-size: 38%;
+    background-position: bottom;
+    background-position-x: 90%;
+    height: calc(38vw);
+    max-height: 460px;
+    .grid-1-right-copy {
+        font-family: Mag_Sans_700;
+        font-size: 28px;
+        text-align: left;
+    }
+}
+
+.grid-2-left {
+    padding: 4% 4% 0 4%;
+    height: calc(33.5vw);
+    grid-column: span 4;
+    background-color: #748CA8;
+    background-image: url("../../assets/img/grid_2.png");
+    background-repeat: no-repeat;
+    background-size: 38%;
+    background-position: bottom;
+    background-position-x: 90%;
+    max-height: 460px;
+    .grid-2-left-copy {
+        font-family: Mag_Sans_700;
+        font-size: 28px;
+        text-align: left;
+    }
+}
+
+.grid-2-right {
+    padding: 4% 4% 0 4%;
+    height: calc(33.5vw);
+    grid-column: span 8;
+    background-color: #748CA8;
+    background-image: url("../../assets/img/grid_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 460px;
+    .grid-2-right-copy {
+        font-family: Mag_Sans_700;
+        font-size: 28px;
+        text-align: left;
+    }
+}
+
+.grid-3-1 {
+    padding: 4% 4% 0 4%;
+    height: calc(19.5vw);
+    grid-column: span 4;
+    background-color: #979797;
+    .grid-3-1-copy {
+        font-family: Mag_Sans_700;
+        font-size: 28px;
+        text-align: left;
+    }
+}
+
+.grid-3-2 {
+    padding: 4% 4% 0 4%;
+    height: calc(19.5vw);
+    grid-column: span 4;
+    background-color: #748CA8;
+    .grid-3-2-copy {
+        font-family: Mag_Sans_700;
+        font-size: 28px;
+        text-align: left;
+    }
+}
+
+.grid-3-3 {
+    padding: 4% 4% 0 4%;
+    height: calc(19.5vw);
+    grid-column: span 4;
+    background-color: #BAAB8B;
+    .grid-3-3-copy {
+        font-family: Mag_Sans_700;
+        font-size: 28px;
+        text-align: left;
+    }
+}
+
+.grid-item-link {
+    font-family: Karnak_Small !important;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}

@@ -5,7 +5,14 @@ import './App.css';
 
 import Landing from './pages/landing'
 
+//import { gsap } from 'gsap/dist/gsap.min.js';
+//import { ScrollTrigger } from 'gsap/dist/ScrollTrigger.min.js';
+
+
+
 function App() {
+
+
   return (
     <div className="App">
       <Landing />
