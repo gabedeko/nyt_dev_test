@@ -7,14 +7,14 @@ function Header() {
 
   return (
     <div id="header-section" className="header-section">
-      <header class="header">
-        <div class="header-details">
-          <h1>NYT</h1>
+      <header className="header">
+        <div className="header-logo">
+          <img className="logo" src={logoWhite} alt="White logo" />
           
         </div>
         
-        <button class="button">Subscribe</button>
-        <img src={logoWhite} alt="White logo" />
+        <button className="button">Subscribe</button>
+        
       </header>
     </div>
   )

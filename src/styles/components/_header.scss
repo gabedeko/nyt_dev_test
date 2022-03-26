@@ -1,0 +1,10 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-gap: 10px;
+    background: #fff;
+    border-bottom: 1px solid #E3E3E3;
+    //padding: 10px;
+  }

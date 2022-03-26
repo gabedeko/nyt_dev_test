@@ -1,0 +1,63 @@
+/**** Karnak ****/
+@font-face {
+    font-family: "Karnak";
+    src: url("../../assets/fonts/karnak-normal-400.woff2") format("woff2"),
+      url("../../assets/fonts/karnak-normal-400.woff") format("woff"),
+      url("../../assets/fonts/karnak-normal-400.ttf") format("tff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /**** Karnak Small ****/
+  @font-face {
+    font-family: "Karnak_Small";
+    src: url("../../assets/fonts/karnak-small-normal-400.woff2") format("woff2"),
+      url("../../assets/fonts/karnak-small-normal-400.woff") format("woff"),
+      url("../../assets/fonts/karnak-small-normal-400.ttf") format("tff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /**** Franklin 300 ****/
+  @font-face {
+    font-family: "Franklin_300";
+    src: url("../../assets/fonts/franklin-normal-300.woff2") format("woff2"),
+      url("../../assets/fonts/franklin-normal-300.woff") format("woff"),
+      url("../../assets/fonts/franklin-normal-300.ttf") format("tff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /**** Franklin Italic 300 ****/
+  @font-face {
+    font-family: "Franklin_Italic_300";
+    src: url("../../assets/fonts/franklin-italic-300.woff2") format("woff2"),
+      url("../../assets/fonts/franklin-italic-300.woff") format("woff"),
+      url("../../assets/fonts/franklin-italic-300.ttf") format("tff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+    
+  /**** Fraklin Small 300 ****/
+  @font-face {
+    font-family: "Franklin_Small_500";
+    src: url("../../assets/fonts/franklin-small-normal-500.woff2") format("woff2"),
+      url("../../assets/fonts/franklin-small-normal-500.woff") format("woff"),
+      url("../../assets/fonts/franklin-small-normal-500.ttf") format("tff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/*-----TYPE SIZE CLASSES-----*/
+.text-large {
+    font-size: 5rem;
+  }
+  
+  .text-medium {
+    font-size: 3rem;
+  }
+  
+  .text-small {
+    font-size: 1.2rem;
+  }

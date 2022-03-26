@@ -3,9 +3,24 @@
 /******************/
 //All SCSS files connect here, and this file connects to index.js
 
-//Components
-@import './pages/landing';
+//Utils
+@import './utils/fonts';
+@import './utils/variables';
+
+//Mixins
+@import './mixins/buttons';
+
+//Base
+@import "./base";
 
 //Components
 @import './components/header';
 @import './components/hero';
+
+
+
+//Pages
+@import './pages/landing';
+
+
+
