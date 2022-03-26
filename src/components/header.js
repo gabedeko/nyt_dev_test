@@ -1,11 +1,21 @@
 import React, { useState, useContext } from 'react' 
 
-//top artist section design - unused
+import logoWhite from '../assets/img/logo_white.png'
+
+//Header Section
 function Header() {
 
   return (
-    <div id="header" className="header">
-      <h1>This is the Header</h1>
+    <div id="header-section" className="header-section">
+      <header class="header">
+        <div class="header-details">
+          <h1>NYT</h1>
+          
+        </div>
+        
+        <button class="button">Subscribe</button>
+        <img src={logoWhite} alt="White logo" />
+      </header>
     </div>
   )
 }

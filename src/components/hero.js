@@ -1,11 +1,11 @@
 import React, { useState, useContext } from 'react' 
 
-//top artist section design - unused
+//Hero Section
 function Hero() {
 
   return (
-    <div id="hero" className="hero">
-      <h1>This is the Hero</h1>
+    <div id="hero-section" className="hero-section">
+      <h1>This is the Hero section</h1>
     </div>
   )
 }
