@@ -70,6 +70,16 @@
   font-style: normal;
 }
 
+/**** cheltenham-normal-200 ****/
+@font-face {
+  font-family: "cheltenham_normal_200";
+  src: url("../../assets/fonts/cheltenham-normal-200.woff2") format("woff2"),
+    url("../../assets/fonts/cheltenham-normal-200.woff") format("woff"),
+    url("../../assets/fonts/cheltenham-normal-200.ttf") format("tff");
+  font-weight: 200;
+  font-style: normal;
+}
+
 /*-----TYPE SIZE CLASSES-----*/
 .text-large {
     font-size: 5rem;

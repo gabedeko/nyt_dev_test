@@ -1,0 +1,55 @@
+.audio-section {
+    background-color: #000;
+    background-image: url("../../assets/img/audio_0.png");
+    background-position: top center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 35px);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 1rem * 6;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    .audio-section-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 480px;
+        .audio-title{
+            text-align: center;
+            font-family: cheltenham_normal_200;
+            font-weight: 100;
+            font-size: 52px;
+            max-width: 532px;
+            margin: 0;
+            @media (max-width: $sm-max) { 
+                font-size: 31px;
+                max-width: 56vw;
+            }
+        }
+        .audio-person {
+            text-align: center;
+            font-family: Mag_Sans_700;
+            font-size: 24px;
+            margin: 0;
+            @media (max-width: $sm-max) { 
+                font-size: 16px;
+            }
+        }
+        .audio-person-title {
+            text-align: center;
+            font-size: 24px;
+            margin: 0;
+            @media (max-width: $sm-max) { 
+                font-size: 12px;
+            }
+        }
+    }
+    
+    
+}

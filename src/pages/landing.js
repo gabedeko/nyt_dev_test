@@ -3,7 +3,7 @@ import React from 'react'
 import Header from '../components/header'
 import Hero from '../components/hero' 
 import Grid from '../components/grid'
-import Video from '../components/video' 
+import Audio from '../components/audio' 
 import More from '../components/more'
 import Subscription from '../components/subscription' 
 import Footer from '../components/footer'
@@ -17,7 +17,7 @@ function Landing() {
             <Header />
             <Hero />
             <Grid />
-            <Video />
+            <Audio />
             <More />
             <Subscription />
             <Footer />

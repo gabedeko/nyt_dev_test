@@ -10,7 +10,6 @@ function Header() {
       <header className="header">
         <div className="header-logo">
           <img className="logo" src={logoWhite} alt="White logo" />
-          
         </div>
         
         <button className="button">Subscribe</button>

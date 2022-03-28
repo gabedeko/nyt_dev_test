@@ -1,0 +1,26 @@
+.subscription-section {
+    background-color: $grey2;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    .subscription-section-content {
+        max-width: 1340px;
+        max-height: 451px;
+        height: 24vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .subscription-title {
+            font-family: Franklin_Small_500;
+            text-transform: uppercase;
+        }
+        .subscription-copy {
+            font-family: cheltenham_normal_200;
+            font-weight: 100;
+            max-width: 755px;
+        }
+    }
+    
+}

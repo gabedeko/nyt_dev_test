@@ -1,0 +1,74 @@
+.hero-section {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding-top: 1rem * 6;
+    padding-bottom: 1rem * 3;
+    @media (max-width: $sm-max) { 
+        padding-top: 1rem * 3;
+        padding-bottom: 1rem * 2;
+    }
+
+    .hero-title {
+        text-align: center;
+        font-size: 48px;
+        line-height: 1;
+        @media (max-width: $sm-max) { 
+            font-size: 24px;
+        }
+    }
+    .hero-copy {
+        text-align: center;
+        font-size: 22px;
+        max-width: 935px;
+        margin: 0 auto;
+        padding-bottom: 1rem * 3;
+        @media (max-width: $sm-max) { 
+            font-size: 15px;
+        }
+    }
+
+    .hero-video-section {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        max-width: 1214px;
+        height: 684px;
+        margin: 0 auto;
+        
+        &:after {
+            display: block;
+            content: "";
+            padding-top: 56.25%;
+        }
+        .video-placeholder {
+            height:100%;
+            background-size: cover;
+            background-image: url("../../assets/img/nyt_video_placeholder.png");
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-color: $dark;
+        }
+    
+        .hide-video-placeholder {
+            display: none;
+        }
+        .hide-hero-video {
+            display: none;
+        }
+        .hero-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        }
+
+        @media (max-width: $sm-max) { 
+            height: 85vw;
+        }
+        
+    }
+}
+
+
+

@@ -1,0 +1,75 @@
+.more-section {
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    .more-section-title {
+        text-align: center;
+        font-family: cheltenham_normal_200;
+        font-weight: 100;
+        font-size: 60px;
+        font-weight: 100;
+        padding-bottom: 15px;
+        margin-bottom: 0;
+
+    }
+    .more-section-copy {
+        text-align: center;
+        font-size: 22px;
+        line-height: 20px;
+        margin-top:0;
+        padding-bottom: 32px;
+    }
+
+    .more-grid {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 1340px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 49%);
+        grid-column-gap: 10px;
+        .more-grid-item {
+            height: calc(28vw);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: $light;
+            a {
+                color: $light;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            &.more-grid-left {
+                background-image: url("../../assets/img/more_gif_0.gif");
+            }
+            &.more-grid-right {
+                background-image: url("../../assets/img/more_gif_1.gif");
+            }
+            .more-grid-item-content {
+                padding: 0 80px;
+                .more-grid-title {
+                    font-family: cheltenham_normal_200;
+                    font-weight: 100;
+                    font-size: 60px;
+                    margin-bottom: 0;
+                }
+                .more-grid-copy {
+                    font-size: 22px;
+                }
+                .more-grid-link {
+                    font-size: 18px;
+                    font-family: Franklin_Small_500;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
