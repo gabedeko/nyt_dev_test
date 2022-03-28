@@ -38,12 +38,18 @@
                 color: $light;
                 text-decoration: none;
                 margin-bottom: 8px;
-                border-bottom: 1px solid $dark;
-                transition: border-bottom .3s ease-in-out;
                 &:hover {
+                    text-decoration: none;
+                }
+                span {
                     padding-bottom: 4px;
-                    border-bottom: 1px solid $light;
+                    border-bottom: 1px solid $dark;
                     transition: border-bottom .3s ease-in-out;
+                    &:hover {
+                        padding-bottom: 4px;
+                        border-bottom: 1px solid $light;
+                        transition: border-bottom .3s ease-in-out;
+                    }
                 }
             }
         }

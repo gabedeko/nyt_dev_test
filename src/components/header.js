@@ -11,7 +11,7 @@ function Header() {
       <header className="header">
         <div className="header-logo">
           {/* <img className="logo" src={logoWhite} alt="White logo" /> */}
-          <img className="logo svg-logo" src={svgLogo} alt="White logo" />
+          <a href="https://www.nytimes.com/"><img className="logo svg-logo" src={svgLogo} alt="White logo" /></a>
 
         </div>
         
