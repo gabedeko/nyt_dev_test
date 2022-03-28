@@ -4,7 +4,7 @@
 
 [Visit Page](https://zippy-puppy-be7b04.netlify.app/)
 
-The page was deployed with Netlify and can be accessed [here](https://zippy-puppy-be7b04.netlify.app/)
+The page was deployed with [Netlify](https://app.netlify.com/teams/gabedeko/overview) and can be accessed [here](https://zippy-puppy-be7b04.netlify.app/)
 
 ## Download Codebase
 
