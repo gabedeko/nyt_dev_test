@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react' 
+import React, { useRef, useState, useContext, useEffect } from 'react' 
 
 import Recording from '../assets/audio/1619_NikoleHJones_LPEvergreen_211021.mp3'
 
@@ -10,20 +10,22 @@ function Audio() {
 
   //Add scrolltrigger Functionality
   gsap.registerPlugin(ScrollTrigger);
-
-  gsap.utils.toArray('.fadeIn4').forEach((box) => {
-    const anim = gsap.fromTo(box, {autoAlpha: 0, y: 100}, {duration: .9, autoAlpha: 1, y: 0});
+  const ref = useRef(null);
+  useEffect(() => {
+    const element = ref.current;
+    const triggerClass = element.querySelector(".fadeInUp-audio");
+    const anim = gsap.fromTo(triggerClass, {autoAlpha: 0, y: 100}, {duration: .9, autoAlpha: 1, y: 0});
     ScrollTrigger.create({
-      trigger: box,
+      trigger: triggerClass,
       animation: anim,
       toggleActions: 'play none none none',
       once: true,
     });
-  });
+  }, []);
 
   return (
-    <div id="audio-section" className="audio-section">
-      <div className="audio-section-text fadeIn4">
+    <div id="audio-section" className="audio-section" ref={ref}>
+      <div className="audio-section-text fadeInUp-audio">
         <h1 className="audio-title">“If we can’t acknowledge the truth about the institution of slavery, then how do we go on to fix the legacy of it?”</h1>
         <h4 className="audio-person">Nikole Hannah-Jones</h4>
         <p className="audio-person-title">New York Times Magazine correspondent and creator of The 1619 Project</p>

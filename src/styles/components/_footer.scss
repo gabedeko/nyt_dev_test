@@ -8,6 +8,9 @@
         padding: 40px 20px;
     }
     .footer-section-content {
+        @media (min-width: $md-min) { 
+            padding: 0 40px;
+        }
         height:100%;
         max-width: 1340px;
         display: flex;
