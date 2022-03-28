@@ -9,7 +9,8 @@ The page was deployed with Netlify and can be accessed [here](https://zippy-pupp
 ## Download Codebase
 
 View code on Github [here](https://github.com/gabedeko/nyt_dev_test)
-Download code [here](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+Download code [here](https://drive.google.com/file/d/1nkyyJqB21n47dhR1AdI3A-LrL-Ogs1Oj/view?usp=sharing)
 
 ## Run Code Locally
 
