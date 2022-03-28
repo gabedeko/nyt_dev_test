@@ -19,7 +19,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 480px;
         .audio-title{
             text-align: center;
             font-family: cheltenham_normal_200;
@@ -27,6 +26,7 @@
             font-size: 52px;
             max-width: 532px;
             margin: 0;
+            margin-bottom:24px;
             @media (max-width: $sm-max) { 
                 font-size: 31px;
                 max-width: 56vw;
@@ -46,10 +46,19 @@
             font-size: 24px;
             margin: 0;
             @media (max-width: $sm-max) { 
-                font-size: 12px;
+                font-size: 14px;
+                padding: 4px 14%;
             }
         }
+
     }
-    
+    .audio-controls {
+        position: absolute;
+        bottom: 4%;
+        width: 88%;
+        @media (max-width: $sm-max) { 
+            bottom: 84%;
+        }
+    }
     
 }

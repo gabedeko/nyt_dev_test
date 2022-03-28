@@ -1,0 +1,77 @@
+@mixin subscribe-light($color: $light) {
+    padding: 2px 8px 3px 8px;
+    //display: block;
+    width: 103px;
+    height: 2rem;
+    background: none;
+    border: 2px solid $dark;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-family: Franklin_300;
+    font-weight: 900;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transition: border 0.3s ease-in-out;
+    overflow: hidden;
+    margin-top: -6px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+    &::before {
+      content: "";
+      display: block;
+      width: inherit;
+      height: inherit;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+  
+    &:hover {
+      color: $dark;
+      border: 2px solid $light;
+      transition: border 0.3s ease-in-out;
+      text-decoration: none;
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+
+  @mixin subscribe-dark($color: $dark) {
+    padding: 8px 8px 10px 8px;
+    display: block;
+    width: 132px;
+    height: 3rem;
+    background-color: $dark;
+    border: 2px solid $dark;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-family: Franklin_300;
+    font-weight: 900;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transition: border 0.3s ease-in-out;
+    color: $light;
+    text-decoration: none;
+  
+    &:hover {
+      //color: $dark;
+      border: 2px solid $dark;
+      color: $light;
+      transition: border 0.3s ease-in-out;
+      text-decoration: none;
+      &::before {
+        opacity: 1;
+      }
+    }
+  }

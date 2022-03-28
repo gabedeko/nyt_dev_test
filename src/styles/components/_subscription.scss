@@ -1,6 +1,6 @@
 .subscription-section {
     background-color: $grey2;
-    padding-top: 5rem;
+    padding-top: 6rem;
     padding-bottom: 5rem;
     .subscription-section-content {
         max-width: 1340px;
@@ -15,12 +15,29 @@
         .subscription-title {
             font-family: Franklin_Small_500;
             text-transform: uppercase;
+            @media (max-width: $sm-max) { 
+                font-size: 14px;
+                margin-bottom:0
+            }
         }
         .subscription-copy {
             font-family: cheltenham_normal_200;
             font-weight: 100;
             max-width: 755px;
+            @media (max-width: $sm-max) { 
+                font-size: 28px;
+                line-height: 33px;
+            }
         }
     }
     
+}
+
+.subscription-btn {
+    @include subscribe-dark;
+    display: flex;
+    justify-content: center;
+    align-items: Center;
+    font-size: 14px;
+    margin-bottom: 40px;
 }
