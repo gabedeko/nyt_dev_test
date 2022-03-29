@@ -75,7 +75,7 @@ function Grid() {
             <div className="grid-item-link" href="#">Learn More</div>
           </a>
         </div>
-        <div className="grid grid-3 fadeInUp-grid-2">
+        <div className="grid grid-3 fadeInUp-grid-3">
           <a className="grid-3-item grid-3-1" href="https://www.nytimes.com/interactive/2019/08/14/magazine/1619-america-slavery.html?" target="_blank">
             <div className="grid-item-container">
               <p className="grid-3-item-copy">A special curriculum gives students a fuller understanding of slavery.</p>
