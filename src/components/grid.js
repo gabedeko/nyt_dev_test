@@ -55,14 +55,14 @@ function Grid() {
             <div className="grid-item-link" href="#">Explore</div>
             <div className="grid-filter"></div>
           </a>
-          <a className="grid-1-item grid-1-right fadeInUp-grid-2" href="https://www.nytimes.com/interactive/2019/08/14/magazine/1619-america-slavery.html?" target="_blank">
+          <a className="grid-1-item grid-1-right" href="https://www.nytimes.com/interactive/2019/08/14/magazine/1619-america-slavery.html?" target="_blank">
             <div className="grid-item-container">
               <p className="grid-1-right-copy">A new book expands on the original reporting with new essays and poems that illuminate slavery's role in present-day America.</p>
               <div className="grid-item-link" href="#">Learn More</div>
             </div>
           </a>
         </div>
-        <div className="grid grid-2 fadeIn2 fadeInUp-grid-3">
+        <div className="grid grid-2 fadeIn2 fadeInUp-grid-2">
           <a className="grid-2-item grid-2-left" href="https://www.nytimes.com/interactive/2019/08/14/magazine/1619-america-slavery.html?" target="_blank">
             <div className="grid-item-container">
               <p className="grid-2-left-copy">A five-part audio narrative series examines the impact of slavery.</p>
@@ -75,7 +75,7 @@ function Grid() {
             <div className="grid-item-link" href="#">Learn More</div>
           </a>
         </div>
-        <div className="grid grid-3 fadeIn2">
+        <div className="grid grid-3 fadeInUp-grid-2">
           <a className="grid-3-item grid-3-1" href="https://www.nytimes.com/interactive/2019/08/14/magazine/1619-america-slavery.html?" target="_blank">
             <div className="grid-item-container">
               <p className="grid-3-item-copy">A special curriculum gives students a fuller understanding of slavery.</p>
